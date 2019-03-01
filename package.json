@@ -13,8 +13,11 @@
     "sass": "sass --watch ./dev/v1/css/app.sass:./www/css/app.css",
     "bs": "browser-sync start --watch -s www"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "JavaScript", "css", "HTML", "TypeScript", "sass", "pug", "boilerplate", "preprocessor",
+    "developement", "startup", "tools"
+  ],
+  "author": "agarciadelrio@gmail.com",
   "license": "",
   "devDependencies": {
   },
