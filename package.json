@@ -1,0 +1,23 @@
+{
+  "name": "hcj-boilerplate",
+  "version": "1.0.0",
+  "description": "HTML CSS JavaScript Boilerplate with preprocessors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vendor": "cp -r ./dev/v1/vendor ./www/",
+    "img": "cp -r ./dev/v1/img ./www",
+    "ts": "tsc -p tsconfig.json",
+    "pug": "pug -o ./www -O ./pugconfig.json -w -b ./dev/v1/pug ./dev/v1/html",
+    "svg": "pug -o ./www -O ./pugconfig.json -w -b ./dev/v1/pug ./dev/v1/svg",
+    "sass": "sass --watch ./dev/v1/css/app.sass:./www/css/app.css",
+    "bs": "browser-sync start --watch -s www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
